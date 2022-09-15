@@ -1,0 +1,26 @@
+.heading {
+    color: blueviolet; /* цвет_текста: фиолетовый */
+    font-family: sans-serif; /* семейство_шрифтов: без засечек */
+    text-align: center; /* текст по центру */
+}  /* стилизация для класса heading */
+
+p, li {  /* стилизация для всех параграфов и элементов списка на странице */
+    font-family: sans-serif;
+    color: #2a2a2a;
+    font-size: 18px;  /* размер_шрифта: 18пикселей */
+    text-align: justify;  /* текст по ширине страницы */
+    line-height: 1.6;  /* расстояние между строчками */
+}
+
+.main-photo { /* стилизация класса main-photo */
+    width: 60%;  /* ширина: 60% от ширины экрана */
+    display: block;
+    margin: 10px auto;  /* отступ_снаружи: верх/низ 10пикселей, лево/право автоматически */
+}
+
+.button {
+    font-family: sans-serif;
+    color: red;
+    font-size: 22px;
+}
+
